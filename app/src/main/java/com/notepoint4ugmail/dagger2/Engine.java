@@ -2,9 +2,11 @@ package com.notepoint4ugmail.dagger2;
 
 import javax.inject.Inject;
 
-public class Engine {
+public interface Engine {
 
-    @Inject
-    public Engine() {
-    }
+//    @Inject
+//    public Engine() {
+//    }
+
+    void start();
 }
